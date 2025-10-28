@@ -24,7 +24,7 @@ public class A01_AreaYPerimetro {
     // Calculamos el área usando la constante Math.PI y la fórmula área = PI * r^2
     double area = Math.PI * radio * radio;
 
-    // Calculamos el perímetro (circunferencia) con la fórmula perímetro = 2 * PI * r
+    // Calculamos el perímetro con la fórmula perímetro = 2 * PI * r
     double perimetro = 2 * Math.PI * radio;
 
     // Mostramos los resultados por pantalla
