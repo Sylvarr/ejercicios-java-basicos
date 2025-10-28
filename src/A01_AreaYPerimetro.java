@@ -1,7 +1,7 @@
 /*
  * Ejercicio 1: Área y perímetro de un círculo
  * Pide el radio de un círculo y calcula su área y perímetro.
- *  Fórmulas:
+ * Fórmulas:
  * area = Math.PI * radio * radio;
  * perimetro = 2 * Math.PI * radio;
  */
@@ -24,7 +24,7 @@ public class A01_AreaYPerimetro {
     // Calculamos el área usando la constante Math.PI y la fórmula área = PI * r^2
     double area = Math.PI * radio * radio;
 
-    // Calculamos el perímetro (circunferencia) con la fórmula perímetro = 2 * π * r
+    // Calculamos el perímetro (circunferencia) con la fórmula perímetro = 2 * PI * r
     double perimetro = 2 * Math.PI * radio;
 
     // Mostramos los resultados por pantalla
