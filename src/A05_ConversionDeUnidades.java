@@ -21,7 +21,7 @@ public class A05_ConversionDeUnidades {
     double fahrenheit = celsius * 9.0 / 5.0 + 32;
     double kelvin = celsius + 273.15;
     // Redondear kelvin a 2 decimales
-    kelvin = Math.round(kelvin * 100.0) / 100;
+    kelvin = Math.round(kelvin * 100.0) / 100.0;
 
     // Mostrar resultados
     System.out.println();
