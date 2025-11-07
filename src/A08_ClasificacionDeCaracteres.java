@@ -25,7 +25,7 @@ public class A08_ClasificacionDeCaracteres {
     } else if (caracter >= 'a' && caracter <= 'z') {
       System.out.println("El caracter " + caracter + " es una letra minúscula.");
       // Comprueba si el carácter es un dígito (entre '0' y '9').
-    } else if ((caracter >= '0' && caracter <= '9')) {
+    } else if (caracter >= '0' && caracter <= '9') {
       System.out.println("El caracter " + caracter + " es un dígito.");
       // Si no es letra mayúscula, minúscula o dígito, es otro símbolo.
     } else {
