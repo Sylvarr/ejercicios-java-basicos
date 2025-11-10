@@ -1,6 +1,5 @@
 /*
  * Pide al usuario un número (por ejemplo, el 8) y muestra su tabla de multiplicar del 1 al 10. 
- * Reto extra: Muestra las tablas de multiplicar de todos los números del 1 al 10.
  */
 
 import java.util.Scanner;
